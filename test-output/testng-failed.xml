@@ -8,13 +8,6 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.LoginDDT_Test">
-        <methods>
-          <include name="teardown"/>
-          <include name="verify_loginddt"/>
-          <include name="Setup"/>
-        </methods>
-      </class> <!-- testCases.LoginDDT_Test -->
       <class name="testCases.Account_Registration_Test">
         <methods>
           <include name="teardown"/>
@@ -22,13 +15,6 @@
           <include name="Setup"/>
         </methods>
       </class> <!-- testCases.Account_Registration_Test -->
-      <class name="testCases.LogIn_Test">
-        <methods>
-          <include name="teardown"/>
-          <include name="verify_login"/>
-          <include name="Setup"/>
-        </methods>
-      </class> <!-- testCases.LogIn_Test -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

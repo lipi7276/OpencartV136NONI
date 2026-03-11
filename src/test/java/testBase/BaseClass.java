@@ -8,11 +8,8 @@ import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
 import java.util.Properties;
-import java.util.ResourceBundle;
 
-import javax.swing.text.html.parser.DTD;
 
-import org.apache.commons.compress.harmony.unpack200.bytecode.SourceFileAttribute;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -63,7 +60,7 @@ public class BaseClass
 			}
 			else if(os.equalsIgnoreCase("mac"))
 			{
-		        cp.setPlatform(Platform.WIN11);		
+		        cp.setPlatform(Platform.MAC);		
 			}
 			else
 			{
@@ -75,12 +72,12 @@ public class BaseClass
 			switch(browser.toLowerCase())
 			{
 			case "chrome": cp.setBrowserName("chrome"); break;
-			case "edge" : cp.setBrowserName("edge"); break;
+			case "edge" : cp.setBrowserName("Microsoftedge"); break;
 			case "firefox" : cp.setBrowserName("firefox"); break;
 			default: System.out.println("no match"); return;
 			}
 			
-		driver=new RemoteWebDriver(new URL(" http://10.226.189.80:4444"),cp);
+		driver=new RemoteWebDriver(new URL("http://10.226.189.80:4444"),cp);
 			
 		}
 		

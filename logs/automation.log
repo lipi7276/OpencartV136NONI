@@ -2464,3 +2464,10 @@ Method public void testCases.LoginDDT_Test.verify_loginddt(java.lang.String,java
 15:51:09.238 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
 15:51:09.239 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
 15:51:09.246 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+22:07:26.921 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\lakshya\eclipse-workspace\OpencartV136NONI\master.xml"
+22:07:27.245 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\lakshya\eclipse-workspace\OpencartV136NONI\master.xml
+
+22:08:06.229 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\lakshya\eclipse-workspace\OpencartV136NONI\master.xml"
+22:10:14.941 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\lakshya\eclipse-workspace\OpencartV136NONI\master.xml"
+22:10:55.009 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\lakshya\eclipse-workspace\OpencartV136NONI\master.xml"
